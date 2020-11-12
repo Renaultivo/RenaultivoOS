@@ -11,4 +11,4 @@
 - [ ] Load programs
 - [ ] Graphic mode for programs
 
-### This is a long time project, the focus here is to learn and understand how to build old and modern operating systems.
+### This is a long time project, the focus here is to learn and understand how to build operating systems, manage memory, process, and develop low level drivers.
