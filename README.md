@@ -6,9 +6,9 @@
 
 ## Tools and functionalities
 
+- [x] Verify boot disk and load kernel
 - [ ] Read and Write terminal data
-- [ ] Write and read disk
 - [ ] Load programs
 - [ ] Graphic mode for programs
 
-### This is a long time project, the focus here is to learn how to build and understand the fundamentals of old and modern operating systems.
+### This is a long time project, the focus here is to learn and understand how to build old and modern operating systems.
