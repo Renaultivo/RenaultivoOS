@@ -55,7 +55,7 @@ loadError:
 %include "libs/bios/printMessage.asm"
   
 bootDrive db 0
-diskErrorMessage db 'A disk error occurred'
+diskErrorMessage db 'Failed to verify disk'
 diskErrorMessageLen equ $-diskErrorMessage
 loadingKernelMessage db 'Loading kernel...'
 loadingKernelMessageLen equ $-loadingKernelMessage
