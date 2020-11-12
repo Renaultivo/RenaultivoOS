@@ -6,7 +6,7 @@
 
 ## Tools and functionalities
 
-- [ ] Read and Write console data
+- [ ] Read and Write terminal data
 - [ ] Write and read disk
 - [ ] Load programs
 - [ ] Graphic mode for programs
