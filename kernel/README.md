@@ -5,8 +5,6 @@
 - ASM functions used and what they do
 - References and recommendations
 
-<br>
-
 ## start
 
 ```ASM
@@ -19,9 +17,10 @@ start:
   <br>
     When the BIOS start, it saves the <strong>boot drive ID</strong> in <strong>DL register</strong>.
   <br>
-    It's important info for us, so we copy it to the memory.
+    It's a important info for us, so we copy it to the memory.
 </details>
 
+<br>
 
 ```ASM
 start:
@@ -39,8 +38,6 @@ start:
   <br>
   Print a message to let the user know that the kernel was successfully loaded.
 </details>
-
-<br>
 
 ## checkCPU
 
@@ -60,6 +57,8 @@ checkCPU:
   If this function do not return "0x80000001" it means that this function is not supported.
 </details>
 
+<br>
+
 ```ASM
 checkCPU:
   [...]
@@ -77,6 +76,8 @@ checkCPU:
   The 29th bit of eax (eax<<29) indicates if the <strong>Long Mode (64 bits)</strong> is available.
 </details>
 
+<br>
+
 ```ASM
 checkCPU:
   [...]
@@ -92,8 +93,6 @@ checkCPU:
   The 26th bit of eax (eax<<26) indicates if the processor supports 1 Gibibyte pages.
 </details>
 
-<br>
-
 ## main
 
 ```ASM
@@ -107,8 +106,6 @@ main:
   <br>
   Infinite loop
 </details>
-
-<br>
 
 ## notSupported
 
