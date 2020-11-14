@@ -4,8 +4,8 @@
 start:
   mov [bootDrive], dl
   call jumpLine
-  mov bp, msg
-  mov cx, msgLen
+  mov bp, kernelLoadedMessage
+  mov cx, kernelLoadedMessageLen
   call printMessage
 
 checkCPU:
@@ -35,7 +35,7 @@ notSupported:
 %include "libs/bios/printMessage.asm"
 
 bootDrive db 0
-msg db 'Kernel loaded'
-msgLen equ $-msg
+kernelLoadedMessage db 'Kernel loaded'
+kernelLoadedMessageLen equ $-kernelLoadedMessage
 notSupportedMessage db 'Long mode not supported'
 notSupportedMessageLen equ $-notSupportedMessage
