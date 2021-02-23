@@ -1,4 +1,4 @@
-# DevOS
+# RenaultivoOS
 
 - DOS Operational System with any external dependency
 - Made from the absolute zero, with assembly (compatible with [ProLang](https://github.com/renaultivo/ProLang) in the future)
